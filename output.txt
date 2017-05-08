@@ -1,0 +1,26 @@
+/**
+ * Arman Ashrafian
+ * CS 1C
+ * Design Patterns Extra Credit
+ * 5-8-2017
+ */
+
+1	Job1
+2	Job2
+3	Job3
+4	Job4
+5	Job5
+
+5 jobs in the queue
+
+Jobs in the queue after cancelJob(3) and cancelJob():
+
+2	Job2
+4	Job4
+5	Job5
+
+cancelJob(6): Invalid Request on Queue
+
+Cancel the remaining jobs
+
+Calling cancelJob() on empty queue: Invalid Request on Queue
